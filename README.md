@@ -1,2 +1,3 @@
 # Leetcode
-Try hard to Leetcode.
+Let's Leetcode.
+Leetcode ID: zixuan_wang.
