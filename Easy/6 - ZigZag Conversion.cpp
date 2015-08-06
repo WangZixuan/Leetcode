@@ -28,8 +28,8 @@ public:
 	string convert(string s, int numRows)
 	{
 		int length = s.length();
-		int loop = 2 * numRows - 2;
 
+		int loop = 2 * numRows - 2;
 		string* arr = new string[numRows];
 
 		for (int i = 0; i < length; ++i)
@@ -45,6 +45,10 @@ public:
 		string retString;
 		for (int i = 0; i < numRows; ++i)
 			retString.append(arr[i]);
+
+		//Never forget this!!!
+		//NEVER!
+		delete[] arr;//Thanks to Kenan Ma.
 
 		return retString;
 	}
