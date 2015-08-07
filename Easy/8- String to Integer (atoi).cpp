@@ -63,7 +63,7 @@ public:
 
 		string usefulStr = str.substr(startPos, length);
 
-		//Weak restriction.
+		//Restriction.
 		if (length > 10 || (10 == length && flag && usefulStr.compare("2147483647") > 0) || (10 == length && !flag && usefulStr.compare("2147483648") > 0))
 			return flag ? INT_MAX : INT_MIN;
 
