@@ -34,6 +34,10 @@ public:
 		//O(nk)
 		for (int i = 0; i < nums.size() - k; ++i)
 		{
+			//There is an O(nLOGk) way.
+			//We use this k-length window, make it a set.
+			//Every time remove the first element and add next element after the window.
+			//To check whether to return true/false, just compare the size of set and the original vector.
 			for (int j = 1; j <= k; ++j)
 			{
 				if (subVec[0] == subVec[j])
