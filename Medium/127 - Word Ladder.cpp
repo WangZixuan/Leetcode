@@ -79,7 +79,7 @@ private:
 		for (auto p = 0; p < word.length(); ++p) 
 		{
 			auto letter = word[p];
-			for (auto k = 0; k < 26; ++k) 
+			for (auto k = 0; k < 26; ++k) //That's where I did not think of, even though it was not so elegant.
 			{
 				word[p] = 'a' + k;
 				if (list.find(word) != list.end()) //Found.
