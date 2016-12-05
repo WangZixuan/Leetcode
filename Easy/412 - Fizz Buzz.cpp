@@ -1,7 +1,7 @@
 /*
 
 
-Fizz Buzz Add to List
+Fizz Buzz
 
 
 Write a program that outputs the string representation of numbers from 1 to n.
