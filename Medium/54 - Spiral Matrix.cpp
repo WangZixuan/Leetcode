@@ -16,7 +16,7 @@ You should return [1,2,3,6,9,8,7,4,5].
 
 @author Zixuan
 @date	2017/7/11
- */
+*/
 #include <vector>
 using namespace std;
 
