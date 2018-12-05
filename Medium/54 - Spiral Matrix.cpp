@@ -25,16 +25,16 @@ class Solution
 public:
 	Solution()
 	{
-		
-	}
-	vector<int> spiralOrder(vector<vector<int>>& matrix)
-	{
-		if (0 == matrix.size())
-			return result;
-		if (1 == matrix.size())
-			return matrix[0];
 
-		return spiralOrder(matrix, 0, 0, matrix[0].size() - 1, matrix.size() - 1);
+		vector<int> spiralOrder(vector<vector<int>>& matrix)
+		{
+			if (0 == matrix.size())
+				return result;
+			if (1 == matrix.size())
+				return matrix[0];
+
+			return spiralOrder(matrix, 0, 0, matrix[0].size() - 1, matrix.size() - 1);
+		}
 	}
 
 private:
