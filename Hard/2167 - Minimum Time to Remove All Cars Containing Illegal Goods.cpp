@@ -77,6 +77,7 @@ class Solution
 {
 public:
     // Refenrece: https://leetcode-cn.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/solution/js-dong-tai-gui-hua-jiang-jiang-wo-zi-ji-dam2/
+    // Check this for smart algorithm: https://leetcode-cn.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/solution/yi-chu-suo-you-zai-you-wei-jin-huo-wu-ch-qinx/
     int minimumTime(string s)
     {
         unsigned length = s.length();
